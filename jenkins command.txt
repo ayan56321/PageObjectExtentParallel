@@ -1,0 +1,1 @@
+F:\WSSelenium\org.ParallelObject_Base>java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war
