@@ -23,7 +23,7 @@ public class ExtentManager {
 	    public static ExtentReports createInstance(String fileName) {
 	        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
 	        
-	        System.out.println("In the instance");
+	        System.out.println("In the instance - ExtentManager");
 	       
 	        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 	        htmlReporter.config().setChartVisibilityOnOpen(true);
