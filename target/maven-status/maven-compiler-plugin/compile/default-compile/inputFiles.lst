@@ -3,6 +3,7 @@ F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\PageObjects
 F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\Utils\Constants.java
 F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\Utils\DriverFactory.java
 F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\ExtentListeners\ExtentListeners.java
+F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\PageObjects\OfficeAppPage.java
 F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\Utils\ExcelReader.java
 F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\Utils\DriverManager.java
 F:\WSSelenium\org.ParallelObject_Base\src\main\java\org\xde\Xrefresh\ExtentListeners\ExtentManager.java

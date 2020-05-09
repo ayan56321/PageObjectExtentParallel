@@ -3,6 +3,7 @@ org\xde\Xrefresh\PageObjects\BasePage.class
 org\xde\Xrefresh\Utils\DataProviders.class
 org\xde\Xrefresh\ExtentListeners\ExtentManager.class
 org\xde\Xrefresh\Utils\DriverFactory.class
+org\xde\Xrefresh\PageObjects\OfficeAppPage.class
 org\xde\Xrefresh\Utils\ExcelReader.class
 org\xde\Xrefresh\ExtentListeners\ExtentListeners.class
 org\xde\Xrefresh\Utils\DataUtil.class

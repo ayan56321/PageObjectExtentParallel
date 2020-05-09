@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43151" started-at="2020-05-08T15:39:50Z" finished-at="2020-05-08T15:40:33Z">
+  <suite name="Suite" duration-ms="71033" started-at="2020-05-09T12:48:38Z" finished-at="2020-05-09T12:49:49Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="43151" started-at="2020-05-08T15:39:50Z" finished-at="2020-05-08T15:40:33Z">
+    <test name="Test1" duration-ms="71033" started-at="2020-05-09T12:48:38Z" finished-at="2020-05-09T12:49:49Z">
       <class name="org.xde.Xrefresh.BDD.LoginTest">
-        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="setUpFramework" is-config="true" duration-ms="44" started-at="2020-05-08T15:39:50Z" finished-at="2020-05-08T15:39:50Z">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="setUpFramework" is-config="true" duration-ms="40" started-at="2020-05-09T12:48:38Z" finished-at="2020-05-09T12:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpFramework -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="loginTest" duration-ms="35421" started-at="2020-05-08T15:39:51Z" data-provider="masterDP" finished-at="2020-05-08T15:40:26Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="loginTest" duration-ms="47867" started-at="2020-05-09T12:48:39Z" data-provider="masterDP" finished-at="2020-05-09T12:49:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{browser=chrome, password=ag0056321, Runmode=Y, username=ayancoolbuddy@gmail.com}]]>
+                <![CDATA[{browser=chrome, password=find@123, Runmode=Y, username=ayancoolbuddy@gmail.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="loginTest" duration-ms="37597" started-at="2020-05-08T15:39:51Z" data-provider="masterDP" finished-at="2020-05-08T15:40:29Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="loginTest" duration-ms="47581" started-at="2020-05-09T12:48:39Z" data-provider="masterDP" finished-at="2020-05-09T12:49:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{browser=chrome, password=ag0056321, Runmode=Y, username=ayancoolbuddy@gmail.com}]]>
+                <![CDATA[{browser=chrome, password=find@123, Runmode=Y, username=ayancoolbuddy@gmail.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="quit" is-config="true" duration-ms="3401" started-at="2020-05-08T15:40:30Z" finished-at="2020-05-08T15:40:33Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="quit" is-config="true" duration-ms="11508" started-at="2020-05-09T12:49:37Z" finished-at="2020-05-09T12:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="quit" is-config="true" duration-ms="2013" started-at="2020-05-08T15:40:31Z" finished-at="2020-05-08T15:40:33Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="quit" is-config="true" duration-ms="11852" started-at="2020-05-09T12:49:37Z" finished-at="2020-05-09T12:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
