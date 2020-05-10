@@ -8,15 +8,14 @@
 
   <test name="Test1">
     <classes>
-      <class name="org.xde.Xrefresh.BDD.LoginTest"/>
+      <class name="org.xde.Xrefresh.BDD.LoginTest"/>      
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
- <!--  <test name="Test2">
+<test name="Test2">
     <classes>
-      <class name="org.xde.Xrefresh.BDD.TestCase2"/>
+      <class name="org.xde.Xrefresh.BDD.ExcelPageTest"/>
     </classes>
-  </test> Test -->
+  </test> 
   
-  
-</suite> <!-- Suite -->
+</suite>

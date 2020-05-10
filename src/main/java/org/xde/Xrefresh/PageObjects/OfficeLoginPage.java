@@ -30,25 +30,32 @@ public class OfficeLoginPage extends BasePage{
 	public WebElement logInButton ;
 	
 	
-	public OfficeLoginPage doLogin(String username, String password) throws InterruptedException {
-		//userNameField.sendKeys(username);
+	public OfficeLoginPage doLoginasInvalidUser(String username, String password) throws InterruptedException {
+		
 		type(userNameField, username, "UserName");
 		
-		//nextButton.click();
 		click(nextButton,"Next Button");
 		
-		//passwordField.wait();
 		Thread.sleep(5000);
 		
-		//passwordField.sendKeys(password);
 		type(passwordField, password, "PassWord");
-		
-		//logInButton.click();
 		click(logInButton,"LogIn Button");
 		
-		
 		return this ;
+	}
+	
+public OfficeAppPage doLoginasvalidUser(String username, String password) throws InterruptedException {
 		
+		type(userNameField, username, "UserName");
+		
+		click(nextButton,"Next Button");
+		
+		Thread.sleep(5000);
+		
+		type(passwordField, password, "PassWord");
+		click(logInButton,"LogIn Button");
+		
+		return (OfficeAppPage) OpenPage(OfficeAppPage.class);
 	}
 
 

@@ -23,11 +23,8 @@ public class ExtentListeners implements ITestListener {
 	
 
 	public void onTestStart(ITestResult result) {
-			
-		System.out.println("Extent Instance "+extent);
-		
-		ExtentTest test = extent.createTest(result.getTestClass().getName()+" @TestCase : "+result.getMethod().getMethodName());
-        System.out.println("Test Name = "+test);
+				
+		ExtentTest test = extent.createTest(result.getTestClass().getName()+" @TestCase : "+result.getMethod().getMethodName());        
 		testReport.set(test);
 
 	}
@@ -41,8 +38,7 @@ public class ExtentListeners implements ITestListener {
 		testReport.get().pass(m);
 		
 		ExtentManager.captureScreenshot();
-		try {
-			System.out.println(ExtentManager.screenshotName);
+		try {			
 			testReport.get().pass(logText,MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.screenshotName).build());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -92,10 +88,7 @@ public class ExtentListeners implements ITestListener {
 	}
 
 	public void onFinish(ITestContext context) {
-		System.out.println("Flush Area1");
-		
-		System.out.println(extent +" On Finish");
-		
+				
 			try {
 				extent.flush();
 				
@@ -104,7 +97,6 @@ public class ExtentListeners implements ITestListener {
 				e.printStackTrace();
 			}
 			
-			System.out.println("Flush Area2");
 	}
 
 }

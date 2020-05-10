@@ -10,7 +10,10 @@ public class OfficeAppPage extends BasePage {
 	@FindBy(xpath="//div[text()=' Excel ']")
 	public WebElement Excel;
 	
-	@FindBy(xpath="//div[text()=' Outlook ']")
+	@FindBy(xpath="//div[text()=' Word ']")
+	public WebElement Word;
+	
+/*	@FindBy(xpath="//div[text()=' Outlook ']")
 	public WebElement Outlook;
 	
 	@FindBy(xpath="//div[text()=' Skype ']")
@@ -23,18 +26,17 @@ public class OfficeAppPage extends BasePage {
 	public WebElement PowerPoint;
 	
 	@FindBy(xpath="//div[text()=' Calendar ']")
-	public WebElement Calendar;
+	public WebElement Calendar;*/
 	
-	@FindBy(xpath="//div[text()=' Word ']")
-	public WebElement Word;
-	
-	
-	public void gotoExcel() {
-		click(Excel,"Excel Link");
+		
+	public WordPage gotoWord() {
+		click(Word,"Word Link");
+		return (WordPage) OpenPage(WordPage.class);
 	}
 	
-	public void gotoWord() {
-		click(Word,"Word Link");
+	public ExcelPage gotoExcel() {
+		click(Excel,"Excel Link");
+		return (ExcelPage) OpenPage(ExcelPage.class);
 	}
 	
 	
@@ -42,7 +44,7 @@ public class OfficeAppPage extends BasePage {
 	@Override
 	protected ExpectedCondition getPageLoadCondition() {
 		// TODO Auto-generated method stub
-		return ExpectedConditions.visibilityOf(Calendar);
+		return ExpectedConditions.visibilityOf(Excel);
 	}
 
 }

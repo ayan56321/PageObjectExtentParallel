@@ -1,47 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="71033" started-at="2020-05-09T12:48:38Z" finished-at="2020-05-09T12:49:49Z">
+  <suite name="Suite" duration-ms="0" started-at="2020-05-10T03:11:32Z" finished-at="2020-05-10T03:11:32Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="71033" started-at="2020-05-09T12:48:38Z" finished-at="2020-05-09T12:49:49Z">
-      <class name="org.xde.Xrefresh.BDD.LoginTest">
-        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="setUpFramework" is-config="true" duration-ms="40" started-at="2020-05-09T12:48:38Z" finished-at="2020-05-09T12:48:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpFramework -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="loginTest" duration-ms="47867" started-at="2020-05-09T12:48:39Z" data-provider="masterDP" finished-at="2020-05-09T12:49:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{browser=chrome, password=find@123, Runmode=Y, username=ayancoolbuddy@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="loginTest" duration-ms="47581" started-at="2020-05-09T12:48:39Z" data-provider="masterDP" finished-at="2020-05-09T12:49:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{browser=chrome, password=find@123, Runmode=Y, username=ayancoolbuddy@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="quit" is-config="true" duration-ms="11508" started-at="2020-05-09T12:49:37Z" finished-at="2020-05-09T12:49:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:org.xde.Xrefresh.BDD.LoginTest@14fae39]" name="quit" is-config="true" duration-ms="11852" started-at="2020-05-09T12:49:37Z" finished-at="2020-05-09T12:49:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- org.xde.Xrefresh.BDD.LoginTest -->
-    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

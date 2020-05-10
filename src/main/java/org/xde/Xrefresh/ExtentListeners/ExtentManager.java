@@ -21,9 +21,8 @@ public class ExtentManager {
 	
 
 	    public static ExtentReports createInstance(String fileName) {
-	        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
+	        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);       
 	        
-	        System.out.println("In the instance - ExtentManager");
 	       
 	        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 	        htmlReporter.config().setChartVisibilityOnOpen(true);
@@ -38,8 +37,7 @@ public class ExtentManager {
 	        extent.setSystemInfo("Organization", "TCS");
 	        extent.setSystemInfo("Build no", "W2A-1234");
 	        
-	        System.out.println(extent);
-	        
+	        	        
 	        return extent;
 	    }
 

@@ -4,7 +4,7 @@
 	  
        {
           "browserName": "chrome",
-          "maxInstances": 3
+          "maxInstances": 4
         }, {
           "browserName": "chrome",
           "maxInstances": 0

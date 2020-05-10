@@ -22,7 +22,7 @@ public class TestCase2 extends BaseRemoteTest{
 		
 		  OfficeHomePage home = new OfficeHomePage(); 
 		  OfficeLoginPage login = home.gotoLogin(); 
-		  login.doLogin("ayancoolbuddy@gmail.com", "ag0056321");
+		  //login.doLogin("ayancoolbuddy@gmail.com", "ag0056321");
 		
 			/*
 			 * getDriver().findElement(By.xpath(

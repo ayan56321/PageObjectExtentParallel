@@ -29,6 +29,30 @@ public class BaseRemoteTest {
 	
 	public boolean grid = true ;
 	
+	private String defaultUsername ;
+	private String defaultpassword;
+	
+	
+	public String getDefaultUsername() {
+		return defaultUsername;
+	}
+
+
+	public void setDefaultUsername(String defaultUsername) {
+		this.defaultUsername = defaultUsername;
+	}
+
+
+	public String getDefaultpassword() {
+		return defaultpassword;
+	}
+
+
+	public void setDefaultpassword(String defaultpassword) {
+		this.defaultpassword = defaultpassword;
+	}
+
+
 	@BeforeSuite
 	public void setUpFramework() {
 		configureLogging();
@@ -60,8 +84,7 @@ public class BaseRemoteTest {
 	}
 	
 	
-	public void logInfo(String message) {
-		System.out.println(" in the logInfo area "+message);
+	public void logInfo(String message) {		
 		ExtentListeners.testReport.get().info(message);
 	}
 	
@@ -128,7 +151,8 @@ public class BaseRemoteTest {
 	DriverManager.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	DriverManager.getDriver().manage().window().maximize();
 	
-	//DriverManager.getDriver().get("https://www.office.com");	
+	setDefaultUsername(config.getProperty("defaultUsername"));
+	setDefaultpassword(config.getProperty("defaultpassword"));
 		
 	}
 	
